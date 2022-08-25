@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+<listener class-name="com.Centurian_Admission_Form.genericutility.LisImpClass"/>
+</listeners> 
+  <test thread-count="5" name="Test">
+   <classes>
+      <class name="com.Centurian_Admission_Form_TNG.Verify_Admission_Form_With_ValidData"/>
+      <class name="com.Centurian_Admission_Form_TNG.Verify_Login_Page"/>
+      <class name="com.Centurian_Admission_Form_TNG.Verify_login_again_TNG"/>
+      <class name="com.Centurian_Admission_Form_TNG.Verify_Print_button"/>
+      <class name="com.Centurian_Admission_Form_TNG.Verify_rular_Urban_city_Button_TNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
